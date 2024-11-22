@@ -1,0 +1,10 @@
+﻿<configuration>
+	<system.web>
+		<compilation debug="true" targetFramework="4.5" />
+		<authentication mode="Forms" />
+		<authorization>
+			<deny users="?" />
+			<allow users="*" />
+		</authorization>
+	</system.web>
+</configuration>
